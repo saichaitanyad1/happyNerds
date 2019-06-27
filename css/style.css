@@ -1,0 +1,51 @@
+    .white-circle {
+        cursor: pointer;
+        background-color: #fff;
+        box-shadow: 0 0 8px #d8dbe3;
+        border-radius: 200px;
+        height: 200px;
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    .sayChase {
+        font-size: 40px;
+    }
+    
+    .white-circle:hover {
+        box-shadow: 0 0 8px #007dbc;
+    }
+    
+    .white-circle img {
+        position: relative;
+        
+    }
+    
+    .audio-control {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -150px;
+        margin-left: -150px;
+        text-align: center;
+    }
+    
+    body {
+        font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        line-height: 21px;
+        color: #444;
+        font-size: 13px;
+        font-weight: 400;
+        background-color: #f9fafc;
+    }
+    
+    canvas {
+        height: 100px;
+        width: 200vw;
+        margin-top: -50px;
+        display: block;
+        position: fixed;
+        top: 50%;
+        left: 0;
+        z-index: -1;
+    }
